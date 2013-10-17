@@ -1,0 +1,3 @@
+<% ['hostname','networking','networking_ipv6','gateway'].each do |name| %>
+<%= name.upcase %>=<%= node['network-settings'][name] %>
+<% end %>
