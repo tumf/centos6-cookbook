@@ -1,4 +1,4 @@
-centos6 Cookbook
+CentOS6 Cookbook
 ================
 
 CentOS6専用のクックブック
@@ -76,7 +76,7 @@ Install
 -------
 
     echo "cookbook 'centos6', github: 'tumf/centos6-cookbook'" >> Berksfile
-    berks berks install --path cookbooks
+    berks install --path cookbooks
 
 Usage
 -----
